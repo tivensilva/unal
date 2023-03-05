@@ -1,0 +1,16 @@
+package tiven;
+
+    public class Punto_1 {
+        public static void main(String[] args) {
+            int x; float suma, potencia, y;
+            suma = 0;
+            x = 20;
+            suma = suma + x;
+            y = 40;
+            float z = Math.pow(y, 2)
+            potencia = x + z ; // cambio el nombre de la variable x a potencia
+            suma = suma + (potencia / y); // utilizo potencia en lugar de x
+            System.out.println("El valor de la suma es: " + suma);
+        }
+ }
+ 
