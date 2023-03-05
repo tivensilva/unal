@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import java.math.*;
+public class Punto_4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese el valor de a: ");
+        double a = sc.nextDouble();
+        double cuadrado = Math.pow(a, 2);
+        double cubo = Math.pow(a, 3);
+
+        System.out.println("El cuadrado de " + a + " es: " + cuadrado);
+        System.out.println("El cubo de " + a + " es: " + cubo);
+    }
+}
